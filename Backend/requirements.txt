@@ -1,0 +1,31 @@
+# ── Web framework ─────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-dotenv==1.0.1
+
+# ── LangChain + Groq ──────────────────────────────────────────
+langchain==0.2.6
+langchain-core==0.2.10
+langchain-community==0.2.6
+langchain-groq==0.1.6
+
+# ── ML / Data Science ─────────────────────────────────────────
+scikit-learn==1.5.0
+numpy==1.26.4
+pandas==2.2.2
+joblib==1.4.2
+
+# ── MLflow experiment tracking ────────────────────────────────
+mlflow==2.13.2
+
+# ── Web search & scraping ─────────────────────────────────────
+tavily-python==0.3.3
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# ── Wikipedia ─────────────────────────────────────────────────
+Wikipedia-API==0.7.1
+
+# ── Templating (required by LangChain prompts) ────────────────
+jinja2==3.1.4
